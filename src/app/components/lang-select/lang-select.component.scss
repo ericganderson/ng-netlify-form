@@ -1,0 +1,26 @@
+// .language-select {
+//   border-radius: 5px;
+//   font-size: 0.75rem;
+//   appearance: none;
+//   // display: none;
+//   background-color: aquamarine;
+// }
+select {
+  margin: 0px;
+  width: 70px;
+  padding: 5px 5px 5px 5px;
+  font-size: 13px;
+  color: var(--color-purple);
+  text-decoration: underline;
+  border: none;
+  height: 30px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: var(--color-yellow);
+  font-family: var(--font-primary);
+}
+select:focus {
+  outline: none;
+  border: 2px solid var(--color-purple);
+}

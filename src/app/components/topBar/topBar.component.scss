@@ -1,0 +1,25 @@
+.topbar {
+  background-color: var(--color-blue);
+  color: var(--color-purple);
+  overflow: hidden;
+}
+
+.navbar-brand {
+  float: left;
+}
+
+a {
+  text-decoration: none;
+  color: maroon;
+}
+
+.nav {
+  float: right;
+}
+
+.navbar-item {
+  padding: 8px;
+  display: inline;
+  list-style-type: none;
+  text-align: center;
+}

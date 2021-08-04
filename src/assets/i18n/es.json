@@ -1,0 +1,22 @@
+{
+  "HOME": {
+    "TITLE": "Espectacular tienda de Gilberto",
+    "SUBTITLE": "Camisetas, calcomanías y diseño desde 2015",
+    "TEXT": "Esta es una demostración",
+    "SELECT": "seleccione el idiomae"
+  },
+  "NAV": {
+    "HOME": "Casa",
+    "ABOUT": "Sobre",
+    "CONTACT": "Contacto",
+    "LANGUAGE": "Idioma:"
+  },
+  "FORM": {
+    "TEXT": "¡Estamos ansiosos por tener noticias tuyas!",
+    "LABEL_NAME": "Nombre",
+    "LABEL_EMAIL": "Correo electrónico",
+    "LABEL_MESSAGE": "Mensaje",
+    "PLACEHOLDER_MESSAGE": "A qué te dedicas",
+    "SUBMIT_BUTTON": "Entregar"
+  }
+}

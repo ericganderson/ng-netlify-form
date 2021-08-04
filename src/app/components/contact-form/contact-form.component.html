@@ -1,6 +1,5 @@
-<p>contact-form works!</p>
 <div class="contact">
-  <h2>We can't wait to hear from you!</h2>
+  <h2>{{ "FORM.TEXT" | translate }}</h2>
   <div class="form-box">
     <form
       name="contact-form"
@@ -9,20 +8,27 @@
       data-netlify="true"
     >
       <input type="hidden" name="form-name" value="contact-form" />
-      <label>Name: </label>
+      <label>{{ "FORM.LABEL_NAME" | translate }}: </label>
       <input type="text" name="name" class="input" />
-      <label>Email: </label>
+      <label>
+        {{ "FORM.LABEL_EMAIL" | translate }}
+        :
+      </label>
       <input type="email" name="email" class="input" required />
-      <label>Message: </label>
+      <label>
+        {{ "FORM.LABEL_MESSAGE" | translate }}
+        :
+      </label>
       <textarea
         name="message"
         class="textarea"
-        placeholder="what you do now?"
+        placeholder="{{ 'FORM.PLACEHOLDER_MESSAGE' | translate }}"
         id=""
-        cols="30"
-        rows="10"
+        rows="7"
       ></textarea>
-      <button type="submit">Submit</button>
+      <button type="submit">
+        {{ "FORM.SUBMIT_BUTTON" | translate }}
+      </button>
     </form>
   </div>
 </div>

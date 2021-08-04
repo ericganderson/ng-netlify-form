@@ -1,0 +1,49 @@
+::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: lightblue;
+  opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: lightblue;
+}
+
+::-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: lightblue;
+}
+
+.contact {
+  display: grid;
+  grid-template-columns: auto 275px auto;
+}
+
+.input {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+
+input:focus {
+  background-color: lightblue;
+}
+input::-webkit-input-placeholder {
+  color: transparent;
+}
+
+input:focus::-webkit-input-placeholder {
+  color: #888;
+}
+.textarea {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+textarea:focus {
+  background-color: lightblue;
+}

@@ -1,1 +1,84 @@
 /* You can add global styles to this file, and also import other style files */
+@import "~normalize.css";
+
+:root {
+  --color-red: #de312d;
+  --color-blue: #84c4b6;
+  --color-green: #16861a;
+  --color-yellow: #e8c318;
+  --color-orange: #eb731e;
+  --color-purple: #411817;
+  --color-pink: #f079a3;
+  --font-primary: Prata, Arial, Helvetica, sans-serif;
+  --font-secondary: 'Roboto', sans-serif;
+}
+
+html,
+body {
+  background: var(--color-yellow);
+  color: var(--color-purple);
+  font-family: var(--font-primary);
+  height: 100%; 
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+h1 {
+  margin: 0;
+  text-align: center;
+}
+
+h1,
+p,
+label {
+  font-family: var(--font-secondary);
+}
+
+p {
+  max-width: 25rem;
+}
+
+#container {
+  border: none;
+  padding: 0.4rem;
+  border-radius: 0;
+  flex-direction: column;
+  display: flex;
+}
+
+// hr {
+//   width: 80%;
+// }
+
+// button {
+//   color: white;
+//   background-color: black;
+//   font-size: large;
+//   padding: 0.5rem;
+//   border-radius: 0.5rem;
+//   margin-top: 1rem;
+// }
+
+// @media screen and (min-height: 700px) {
+//   html,
+//   body {
+//     align-items: center;
+//     justify-content: center;
+//   }
+// }
+
+// @media screen and (min-width: 480px) {
+//   #container {
+//     border: 0.1rem solid lightgray;
+//     padding: 2rem;
+//     border-radius: 0.5rem;
+//   }
+
+//   html,
+//   body {
+//     align-items: center;
+//     justify-content: center;
+//   }
+// }

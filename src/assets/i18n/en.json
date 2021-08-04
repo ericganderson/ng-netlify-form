@@ -1,0 +1,22 @@
+{
+  "HOME": {
+    "TITLE": "Gilberto's Shop Spectacular",
+    "SUBTITLE": " Tshirts, Decals, and Design since 2015 ",
+    "TEXT": "This is demo",
+    "SELECT": "Select language"
+  },
+  "NAV": {
+    "HOME": "Home",
+    "ABOUT": "About",
+    "CONTACT": "Contact",
+    "LANGUAGE": "Language:"
+  },
+  "FORM": {
+    "TEXT": "We can't wait to hear from you!",
+    "LABEL_NAME": "Name",
+    "LABEL_EMAIL": "Email",
+    "LABEL_MESSAGE": "Message",
+    "PLACEHOLDER_MESSAGE": "What do you do",
+    "SUBMIT_BUTTON": "Submit"
+  }
+}

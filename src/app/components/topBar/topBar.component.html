@@ -1,0 +1,33 @@
+<div class="topbar">
+  <div class="container">
+    <a class="navbar-brand" [routerLink]="['/home/']"
+      ><h2>{{ "HOME.TITLE" | translate }}</h2></a
+    >
+    <ul class="nav navbar-nav">
+      <ng-container>
+        <!-- <li class="navbar-item">
+          <a [routerLink]="['/']" class="navbar-link">
+            <i class="ion-accessability"></i>
+            {{ "NAV.HOME" | translate }}
+          </a>
+        </li>
+        <li class="navbar-item">
+          <a [routerLink]="['/about/']" class="navbar-link">
+            <i class="ion-body-a"></i>
+            {{ "NAV.ABOUT" | translate }}
+          </a>
+        </li>
+        <li class="navbar-item">
+          <a [routerLink]="['/contact/']" class="navbar-link">
+            <i class="ion-accessability"></i>
+            {{ "NAV.CONTACT" | translate }}
+          </a>
+        </li> -->
+        <li class="navbar-item">
+          {{ "NAV.LANGUAGE" | translate }}
+          <app-lang-select></app-lang-select>
+        </li>
+      </ng-container>
+    </ul>
+  </div>
+</div>

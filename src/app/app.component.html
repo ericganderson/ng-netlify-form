@@ -5,7 +5,50 @@
 <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
 <!-- * * * * * * * * * Delete the template below * * * * * * * * * * -->
 <!-- * * * * * * * to get started with your project! * * * * * * * * -->
-<h1>Hello!</h1>
-<app-navigation></app-navigation>
-<app-contact-form></app-contact-form>
-<router-outlet></router-outlet>
+<!-- <bd-topbar></bd-topbar>) -->
+<div class="lang-selector-box">
+  <div class="lang-selector">
+    <h5>{{ "NAV.LANGUAGE" | translate }}</h5>
+    <app-lang-select></app-lang-select>
+  </div>
+</div>
+<div class="wrapper">
+  <div class="banner">
+    <h1>{{ "HOME.TITLE" | translate }}</h1>
+    <div class="subtitle-row">
+      <h2>{{ "HOME.SUBTITLE" | translate }}</h2>
+    </div>
+    <div class="color-box-2">
+      <div class="box-l"></div>
+      <div class="box-r"></div>
+      <div class="box-p"></div>
+      <div class="box-g"></div>
+      <div class="box-o"></div>
+      <div class="box-b"></div>
+      <div class="box-y"></div>
+    </div>
+  </div>
+  <div class="about">
+    <div class="about-item">
+      <img src="../assets/images/studio.png" alt="" />
+    </div>
+    <div class="about-item">
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias earum
+        praesentium nesciunt obcaecati, cupiditate ducimus illum numquam
+        suscipit in pariatur necessitatibus dolorum sunt ea labore perspiciatis
+        ipsam doloribus consequuntur culpa. Accusamus, cupiditate voluptas rem
+        maiores quisquam facere qui, magni fugiat, molestiae esse nam natus.
+        Esse maiores sit repudiandae doloribus enim odio eius exercitationem
+        itaque, autem quos vero. Adipisci earum quo similique accusantium
+        officiis laborum odit mollitia quibusdam corporis minus qui maiores,
+        nulla inventore nobis sequi deserunt consequuntur praesentium magnam
+        placeat facilis? Quas, sed. Voluptas doloremque quod provident, laborum
+        commodi obcaecati tempora consectetur sed, laboriosam possimus quidem
+        quisquam iste necessitatibus nisi!
+      </p>
+    </div>
+  </div>
+  <app-contact-form></app-contact-form>
+  <router-outlet></router-outlet>
+</div>

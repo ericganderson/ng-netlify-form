@@ -1,2 +1,120 @@
 /* You can add global styles to this file, and also import other style files */
+::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: lightblue;
+  opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: lightblue;
+}
+
+::-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: lightblue;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --color-red: #de312d;
+  --color-blue: #84c4b6;
+  --color-green: #16861a;
+  --color-yellow: #e8c318;
+  --color-orange: #eb731e;
+  --color-purple: #411817;
+  --color-pink: #f079a3;
+  --font-primary: Prata;
+  --font-secondary: Open Sans;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+h1 {
+  margin: 0;
+  text-align: center;
+}
+
+h1,
+p,
+label {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+  max-width: 25rem;
+}
+
+#container {
+  border: none;
+  padding: 0.4rem;
+  border-radius: 0;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+hr {
+  width: 80%;
+}
+
+button {
+  color: white;
+  background-color: black;
+  font-size: large;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  margin-top: 1rem;
+}
+
+@media screen and (min-height: 700px) {
+  html,
+  body {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+}
+
+@media screen and (min-width: 480px) {
+  #container {
+    border: 0.1rem solid lightgray;
+    padding: 2rem;
+    border-radius: 0.5rem;
+  }
+  html,
+  body {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+}
 /*# sourceMappingURL=styles.css.map */
